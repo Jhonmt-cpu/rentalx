@@ -1,0 +1,41 @@
+Arguments: 
+  /home/jhonmt/.nvm/versions/node/v14.15.1/bin/node /home/jhonmt/.nvm/versions/node/v14.15.1/bin/yarn add express @
+
+PATH: 
+  /home/jhonmt/.asdf/shims:/home/jhonmt/.asdf/bin:/home/jhonmt/.zinit/polaris/bin:/home/jhonmt/.nvm/versions/node/v14.15.1/bin:/home/jhonmt/.local/bin:/usr/src/linux-headers-5.11.0-11.1-liquorix-amd64/tools/power/x86/x86_energy_perf_policy:/usr/src/linux-headers-5.11.0-11.1-liquorix-amd64/tools/power/x86/turbostat:/usr/src/linux-headers-5.11.0-11.1-liquorix-amd64/tools/power/cpupower:/usr/src/linux-headers-5.11.0-11.1-liquorix-amd64/tools/perf:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jhonmt/Android/Sdk/emulator:/home/jhonmt/Android/Sdk/tools:/home/jhonmt/Android/Sdk/tools/bin:/home/jhonmt/Android/Sdk/platform-tools:/home/jhonmt/android-studio/bin:/home/jhonmt/Android/Sdk/emulator:/home/jhonmt/Android/Sdk/tools:/home/jhonmt/Android/Sdk/tools/bin:/home/jhonmt/Android/Sdk/platform-tools:/home/jhonmt/android-studio/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@: Request "https://registry.yarnpkg.com/@" returned a 405
+      at Request.params.callback [as _callback] (/home/jhonmt/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:66997:18)
+      at Request.self.callback (/home/jhonmt/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/jhonmt/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/jhonmt/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "rentalx",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
