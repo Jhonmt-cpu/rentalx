@@ -28,17 +28,8 @@ class SendForgotPasswordMailUseCase {
     const user = await this.usersRepository.findByEmail(email);
 
     if (!user) {
-      throw new AppError("User does not exist");
+      throw new AppError("User does not exists!");
     }
-
-    const templatePath = resolve(
-      __dirname,
-      "..",
-      "..",
-      "views",
-      "emails",
-      "forgotPassword.hbs"
-    );
 
     const token = uuidV4();
 
@@ -49,6 +40,15 @@ class SendForgotPasswordMailUseCase {
       user_id: user.id,
       expires_date,
     });
+
+    const templatePath = resolve(
+      __dirname,
+      "..",
+      "..",
+      "views",
+      "emails",
+      "forgotPassword.hbs"
+    );
 
     const variables = {
       name: user.name,
