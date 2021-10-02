@@ -1,8 +1,12 @@
 node_modules/
 dist/
 .vscode/
-tmp/
+tmp/cars/*
+tmp/avatar/*
 coverage/
 
 ormconfig.json
 .env
+
+!tmp/cars/.gitkeep
+!tmp/avatar/.gitkeep
